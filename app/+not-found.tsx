@@ -7,7 +7,7 @@ export default function NotFoundScreen() {
     <>
       <Stack.Screen options={{ title: 'RESTRICTED AREA' }} />
       <View style={styles.container}>
-        <Link href="/(tabs)/index" style={styles.button}>
+        <Link href="/" style={styles.button}>
           Go back to Home screen!
         </Link>
       </View>
